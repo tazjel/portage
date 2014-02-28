@@ -1,0 +1,32 @@
+# ChangeLog for sys-apps/proot
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/proot/ChangeLog,v 1.5 2014/02/25 08:15:17 patrick Exp $
+
+*proot-3.2.2 (25 Feb 2014)
+
+  25 Feb 2014; Patrick Lauer <patrick@gentoo.org> +proot-3.2.2.ebuild:
+  Bump
+
+*proot-3.2.1-r1 (23 Dec 2013)
+
+  23 Dec 2013; Sergey Popov <pinkbyte@gentoo.org> +proot-3.2.1-r1.ebuild:
+  Revision bump: add support for hardened systems, wrt bug #493416
+
+  23 Dec 2013; Sergey Popov <pinkbyte@gentoo.org> -proot-2.3.1.ebuild,
+  -files/proot-2.3.1-gnu-define-fix.patch, -files/proot-2.3.1-makefile.patch:
+  Drop old
+
+*proot-3.2.1 (06 Dec 2013)
+
+  06 Dec 2013; Sergey Popov <pinkbyte@gentoo.org> +proot-3.2.1.ebuild,
+  +files/proot-3.2.1-makefile.patch:
+  Version bump, wrt bug #490840. Thanks to Tim Harder for discovering this
+  issue
+
+*proot-2.3.1 (24 Jan 2013)
+
+  24 Jan 2013; Sergey Popov <pinkbyte@gentoo.org> +proot-2.3.1.ebuild,
+  +files/proot-2.3.1-gnu-define-fix.patch,
+  +files/proot-2.3.1-lib-paths-fix.patch, +files/proot-2.3.1-makefile.patch,
+  +metadata.xml:
+  Initial commit, wrt bug #439324, thanks to James Le Cuirot

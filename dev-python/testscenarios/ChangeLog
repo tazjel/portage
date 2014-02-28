@@ -1,0 +1,25 @@
+# ChangeLog for dev-python/testscenarios
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/dev-python/testscenarios/ChangeLog,v 1.4 2014/02/18 02:56:44 prometheanfire Exp $
+
+*testscenarios-0.4-r2 (18 Feb 2014)
+
+  18 Feb 2014; Matthew Thode <prometheanfire@gentoo.org>
+  +testscenarios-0.4-r2.ebuild, -testscenarios-0.4-r1.ebuild:
+  fixed tests, kthnxbai
+
+*testscenarios-0.4-r1 (14 Jan 2014)
+
+  14 Jan 2014; Ian Delaney <idella4@gentoo.org> +testscenarios-0.4-r1.ebuild,
+  metadata.xml, testscenarios-0.4.ebuild:
+  metadata; add python herd, revbump; add py3.3 support
+
+  13 Dec 2013; Ian Delaney <idella4@gentoo.org> metadata.xml,
+  testscenarios-0.4.ebuild:
+  switch herds, add py3 support, test phase unrestricted
+
+*testscenarios-0.4 (17 Sep 2013)
+
+  17 Sep 2013; Matthew Thode <prometheanfire@gentoo.org> +metadata.xml,
+  +testscenarios-0.4.ebuild:
+  openstack testing, but tests fail...

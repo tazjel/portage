@@ -1,0 +1,29 @@
+# ChangeLog for sys-apps/systemd-sysv-utils
+# Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
+# $Header: /var/cvsroot/gentoo-x86/sys-apps/systemd-sysv-utils/ChangeLog,v 1.5 2014/02/15 10:41:52 mgorny Exp $
+
+  15 Feb 2014; Michał Górny <mgorny@gentoo.org> -systemd-sysv-utils-207.ebuild,
+  systemd-sysv-utils-208.ebuild:
+  Depend on new enough util-linux for extra tools. Drop old.
+
+*systemd-sysv-utils-208 (15 Feb 2014)
+
+  15 Feb 2014; Michał Górny <mgorny@gentoo.org> +systemd-sysv-utils-208.ebuild:
+  Bump to reuse the newer systemd tarball.
+
+*systemd-sysv-utils-207 (20 Sep 2013)
+
+  20 Sep 2013; Michał Górny <mgorny@gentoo.org> +systemd-sysv-utils-207.ebuild,
+  -systemd-sysv-utils-194.ebuild, -systemd-sysv-utils-37.ebuild:
+  Version bump, remove old. Fix init symlink wrt bug #485446.
+
+*systemd-sysv-utils-194 (04 Oct 2012)
+
+  04 Oct 2012; Michał Górny <mgorny@gentoo.org> +systemd-sysv-utils-194.ebuild:
+  Version bump, as requested per bug #430876.
+
+*systemd-sysv-utils-37 (07 Jan 2012)
+
+  07 Jan 2012; Michał Górny <mgorny@gentoo.org>
+  +systemd-sysv-utils-37.ebuild, +metadata.xml:
+  Introduce an ebuild for systemd sysv-compat symlinks and manpages.

@@ -1,0 +1,9 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=shell script that generates a self-extractible tar.gz
+HOMEPAGE=http://www.megastep.org/makeself/
+KEYWORDS=amd64 hppa ppc x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.megastep.org/makeself/makeself-2.1.5.run
+_eclasses_=unpacker	60422068bae2b3406a8a40db45ab5b95
+_md5_=77dfc51d1088e17ee42610301ee39852
